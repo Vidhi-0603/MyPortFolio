@@ -27,9 +27,7 @@ jobs:
       run: npm ci
 
     - name: Build
-      run: |
-        cd client
-        npx vite build --base=/MyPortFolio/
+      run: npx vite build --base=/MyPortFolio/
       env:
         NODE_ENV: production
 
