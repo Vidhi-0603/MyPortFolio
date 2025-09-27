@@ -5,12 +5,12 @@ export default function SkillsSection() {
     {
       title: "Frontend Development",
       icon: Monitor,
-      skills: ["React", "Angular", "JavaScript", "HTML5", "CSS3", "Bootstrap", "Tailwind CSS", "TypeScript"]
+      skills: ["React","Redux","Context API", "Angular", "JavaScript", "HTML5", "CSS3", "Bootstrap", "Tailwind CSS", "TypeScript"]
     },
     {
       title: "Backend Development", 
       icon: Server,
-      skills: ["Node.js", "Express.js", "Python", "Django", "Java", "REST APIs", "JWT Auth", "API Integration"]
+      skills: ["Node.js", "Express.js","Socket.IO", "Python", "Django", "Java", "REST APIs", "JWT Auth", "API Integration"]
     },
     {
       title: "Database & Cloud",
