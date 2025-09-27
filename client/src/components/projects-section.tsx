@@ -3,6 +3,20 @@ import { Check, Github, ExternalLink } from "lucide-react";
 export default function ProjectsSection() {
   const projects = [
     {
+      title: "UberClone",
+      description: "a full-stack ride-hailing app inspired by Uber, featuring real-time driver tracking, ride booking, and dynamic route rendering using Google Maps API and WebSockets.",
+      image: "https://github.com/Vidhi-0603/UberClone/blob/main/Screenshot%202025-09-27%20131232.png",
+      features: [
+        "Implemented real-time driver and rider tracking using Geolocation API & Socket.IO.",
+        "Integrated Google Maps API for dynamic routing, live navigation, and ride status updates.",
+        "Built driver and rider authentication with secure login and role-based access.",
+        "Designed a responsive UI for seamless use across web and mobile devices.",
+      ],
+      techStack: ["React", "Vite", "Context API", "Node.js", "Express", "MongoDB", "JWT","WebSockets","Google Maps API"],
+      githubUrl: "https://github.com/Vidhi-0603/UberClone",
+      imageOrder: "right"
+    },
+    {
       title: "URL Shortener",
       description: "A full-stack URL shortener application with advanced features for modern web usage.",
       image: "https://raw.githubusercontent.com/Vidhi-0603/URLShortener/main/Screenshot%202025-08-26%20171548.png",
@@ -15,7 +29,7 @@ export default function ProjectsSection() {
       ],
       techStack: ["React", "Vite", "Redux Toolkit", "TanStack Query", "Node.js", "Express", "MongoDB", "JWT"],
       githubUrl: "https://github.com/Vidhi-0603/URLShortener",
-      imageOrder: "right"
+      imageOrder: "left"
     },
     {
       title: "ShopseeApp",
@@ -30,21 +44,6 @@ export default function ProjectsSection() {
       ],
       techStack: ["Angular", "TypeScript", "Firebase Auth", "Firebase Database", "DummyJSON API", "CSS3", "HTML5"],
       githubUrl: "https://github.com/Vidhi-0603/ShopseeApp",
-      imageOrder: "left"
-    },
-    {
-      title: "World Wide Land (WWL)",
-      description: "A comprehensive real estate web application for property listings and management.",
-      image: "https://raw.githubusercontent.com/Vidhi-0603/wwl/main/Screenshot%202025-08-27%20122526.png",
-      features: [
-        "Django backend framework for robust server-side functionality",
-        "Python-powered backend with SQLite3 database integration",
-        "Comprehensive property listings with detailed information display",
-        "Responsive user interface built with HTML5 and CSS3",
-        "Real estate management system with admin capabilities"
-      ],
-      techStack: ["Django", "Python", "SQLite3", "HTML5", "CSS3", "Real Estate"],
-      githubUrl: "https://github.com/Vidhi-0603/wwl",
       imageOrder: "right"
     }
   ];
