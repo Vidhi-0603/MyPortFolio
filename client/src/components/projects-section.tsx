@@ -5,7 +5,7 @@ export default function ProjectsSection() {
     {
       title: "UberClone",
       description: "a full-stack ride-hailing app inspired by Uber, featuring real-time driver tracking, ride booking, and dynamic route rendering using Google Maps API and WebSockets.",
-      image: "https://github.com/Vidhi-0603/UberClone/blob/main/Screenshot%202025-09-27%20131232.png",
+      image: "https://raw.githubusercontent.com/Vidhi-0603/UberClone/main/Screenshot%202025-09-27%20131232.png",
       features: [
         "Implemented real-time driver and rider tracking using Geolocation API & Socket.IO.",
         "Integrated Google Maps API for dynamic routing, live navigation, and ride status updates.",
