@@ -29,11 +29,11 @@ export default function HeroSection() {
             </div>
             <div className="flex items-center gap-2 text-muted-foreground" data-testid="hero-specialization">
               <Code className="w-5 h-5" />
-              <span>MERN Stack Specialist</span>
+              <span>MERN Stack</span>
             </div>
             <div className="flex items-center gap-2 text-muted-foreground" data-testid="hero-expertise">
               <Database className="w-5 h-5" />
-              <span>Full-Stack Expert</span>
+              <span>Full-Stack Development</span>
             </div>
           </div>
           
