@@ -20,7 +20,7 @@ export default function SkillsSection() {
     {
       title: "Tools & Technologies",
       icon: Wrench,
-      skills: ["Git", "GitHub", "VS Code", "Postman", "Redux Toolkit", "React Query", "Vite", "npm"]
+      skills: ["Git", "GitHub", "VS Code", "Postman","WebSockets", "Redux Toolkit", "React Query", "Vite", "npm","Google Maps API"]
     }
   ];
 
