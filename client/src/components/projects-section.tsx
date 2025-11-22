@@ -13,7 +13,7 @@ export default function ProjectsSection() {
         "Designed a responsive UI for seamless use across web and mobile devices.",
       ],
       techStack: ["React", "Vite", "Context API", "Node.js", "Express", "MongoDB", "JWT","WebSockets","Google Maps API"],
-      githubUrl: "https://github.com/Vidhi-0603/UberClone",
+      githubUrl: "https://github.com/Vidhi-0603/UberClone", "https://uber-clone-kappa-five.vercel.app/"
       imageOrder: "right"
     },
     {
