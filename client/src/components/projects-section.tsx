@@ -13,7 +13,8 @@ export default function ProjectsSection() {
         "Designed a responsive UI for seamless use across web and mobile devices.",
       ],
       techStack: ["React", "Vite", "Context API", "Node.js", "Express", "MongoDB", "JWT","WebSockets","Google Maps API"],
-      githubUrl: "https://github.com/Vidhi-0603/UberClone", "https://uber-clone-kappa-five.vercel.app/"
+      githubUrl: "https://github.com/Vidhi-0603/UberClone", 
+      liveUrl:"https://uber-clone-kappa-five.vercel.app/",
       imageOrder: "right"
     },
     {
@@ -113,14 +114,16 @@ export default function ProjectsSection() {
                       <Github className="w-4 h-4 mr-2" />
                       View Code
                     </a>
-                    <button
-                      disabled
-                      className="inline-flex items-center px-6 py-2 bg-primary/50 text-primary-foreground text-sm font-medium rounded-lg cursor-not-allowed opacity-60"
+                    {project.liveUrl && ( <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center px-6 py-2 bg-primary/50 text-primary-foreground text-sm font-medium rounded-lg"
                       data-testid={`project-demo-${index}`}
                     >
                       <ExternalLink className="w-4 h-4 mr-2" />
                       Live Demo
-                    </button>
+                    </a>)}
                   </div>
                 </div>
               </div>
