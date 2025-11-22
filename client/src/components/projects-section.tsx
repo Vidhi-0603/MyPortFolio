@@ -118,7 +118,7 @@ export default function ProjectsSection() {
                       href={project.liveUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center px-6 py-2 bg-primary/50 text-primary-foreground text-sm font-medium rounded-lg"
+                      className="inline-flex items-center px-6 py-2 border border-border text-sm font-medium rounded-lg text-foreground hover:bg-secondary transition-colors"
                       data-testid={`project-demo-${index}`}
                     >
                       <ExternalLink className="w-4 h-4 mr-2" />
