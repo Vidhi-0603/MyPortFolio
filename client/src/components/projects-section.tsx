@@ -3,20 +3,33 @@ import { Check, Github, ExternalLink } from "lucide-react";
 export default function ProjectsSection() {
   const projects = [
     {
-      title: "UberClone",
-      description: "A full-stack ride-hailing app inspired by Uber, featuring real-time driver tracking, ride booking, and dynamic route rendering using Google Maps API and WebSockets.",
-      image: "https://raw.githubusercontent.com/Vidhi-0603/UberClone/main/Screenshot%202025-09-27%20131232.png",
-      features: [
-        "Implemented real-time driver and rider tracking using Geolocation API & Socket.IO.",
-        "Integrated Google Maps API for dynamic routing, live navigation, and ride status updates.",
-        "Built driver and rider authentication with secure login and role-based access.",
-        "Designed a responsive UI for seamless use across web and mobile devices.",
-      ],
-      techStack: ["React", "Vite", "Context API", "Node.js", "Express", "MongoDB", "JWT","WebSockets","Google Maps API"],
-      githubUrl: "https://github.com/Vidhi-0603/UberClone", 
-      liveUrl:"https://uber-clone-kappa-five.vercel.app/",
-      imageOrder: "right"
-    },
+  title: "RideNow",
+  description:
+    "A full-stack ride-hailing application inspired by Uber, featuring real-time driver tracking, ride booking, and dynamic route visualization using Leaflet and Geoapify APIs with WebSockets.",
+  image:
+    "https://raw.githubusercontent.com/Vidhi-0603/UberClone/main/Screenshot%202025-09-27%20131232.png",
+  features: [
+    "Implemented real-time driver and rider tracking using the Geolocation API and Socket.IO.",
+    "Integrated Leaflet with Geoapify for map rendering, address autocomplete, distance calculation, and route visualization.",
+    "Built secure driver and rider authentication with role-based access using JWT.",
+    "Designed a fully responsive UI for smooth usage across desktop and mobile devices."
+  ],
+  techStack: [
+    "React",
+    "Vite",
+    "Context API",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "JWT",
+    "WebSockets",
+    "Leaflet",
+    "Geoapify"
+  ],
+  githubUrl: "https://github.com/Vidhi-0603/RideNow",
+  liveUrl: "https://ridenow-chi.vercel.app/",
+  imageOrder: "right"
+},
     {
       title: "URL Shortener",
       description: "A full-stack URL shortener application with advanced features for modern web usage.",
